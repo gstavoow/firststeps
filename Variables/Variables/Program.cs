@@ -32,12 +32,7 @@
         Console.WriteLine(numero);
         Console.WriteLine(ehVerdadeiro);
         Console.WriteLine("");
-
-        Console.WriteLine("aperte qualquer tecla para sair");
-        Console.ReadKey();
-
-
-
+     
         Console.WriteLine("escreva o primeiro numero");
         int n1 = Convert.ToInt32(Console.ReadLine());
 
@@ -45,6 +40,15 @@
         int n2 = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine($"resultado {n1 + n2}");
+        if (n1 + n2 == 10)
+        {
+            Console.WriteLine("oloco");
+        }
+        else
+        {
+            Console.WriteLine("aperte qualquer tecla para sair");
+            Console.ReadKey();
+        }
 
 
 
